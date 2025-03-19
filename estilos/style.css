@@ -52,31 +52,40 @@ div#formulario > p {
     padding: 10px;
     font-size: 0.8em;
 }
+div > label {
+    display: none;
+}
 div.campo{
  display: block;
  width: 100%;
  height: 40px;
- padding: 3px;
+ padding: 5px 0px;
  
- background-color: antiquewhite;
+ background-color: #26df82;
  margin:5px 0px;
  border-radius: 15px;
 }
 form div.campo > i {
     color: rgb(0, 0, 0);
-    background-color: azure;
+
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
 
 }
 form div > input {
-    background-color: rgb(74, 83, 81);
-    width: calc(100% - 40px);
-    height: 35px;
+    background-color: #7ef1bcea;
+    width: calc(100% - 65px);
+    height: 40px;
     border-radius: 15px;
     border: none; 
     padding: 2px;
+    
+    transform: translateY(-12px);
 }
 form > input {
     display: block;
+    background-color: #7ef1bcea;
     width: 100%;
     height: 40px;
     font-family: Arial, Helvetica, sans-serif;
@@ -86,5 +95,5 @@ form > input {
     padding: 10px;
 }
 form > input:hover {
-    background-color: rgb(163, 113, 228);
+    background-color: #26df82;
 } 
